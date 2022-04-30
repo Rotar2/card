@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+background: rgb(245, 245, 247);
+color: #0f141e;
+line-height: 20px;
+}
+.info {
+    margin-bottom: 10px;
+    display: flex;
+}
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(18, 65, 33);
+    margin: 0;
+    margin-left: 25px;
+}
+
+H1 {
+    text-shadow:
+      1px 1px white,
+      2px 2px #777;
+    color: #333;
+    transition: all 1s;
+  }
+
+  .media-card H2 {
+    text-shadow:
+      1px 1px white,
+      2px 2px #777;
+    color: #333;
+    transition: all 1s;
+  }
+
+  H2 {
+    text-shadow:
+      1px 1px 1px silver,
+      -1px 1px 1px silver;
+    color: white;
+    transition: all .5s;
+  }
+
+.info-text strong{
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 150;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 25);
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: rgb(193, 214, 145);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 25);
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #6e7177;
+    margin-bottom: 10px
+}
+
+.table {
+    width: 100%;
+}
+
+.table th {
+   border-bottom: solid 2px #000; 
+}
+
+.table td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.table th:nth-child(1), .table th:nth-child(2), .table th:nth-child(3) {
+    color: #171718;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #111;
+    color: #000;
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.btn {
+    background: #fff;
+    padding: 10px 20px;
+    color: #111;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 25);
+}
+.btn:hover {
+    background: #24d74e; color: #fff;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.social a {
+    /* text-align: center; */
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px 10px rgba(0,0,0,25), inset 0 0 55px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin: 0 10px 100px 0;
+    padding: 4px;
+    color: #000;
+}
+.telegram a:hover {
+    background: #249bd7; color: #fff;
+}
+.instagram a:hover {
+    background: #e01c98; color: #fff;}
+
+.media {
+    
+    display: inline-block;
+    margin: 10px auto;
+}
